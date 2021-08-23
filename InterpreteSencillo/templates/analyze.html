@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Analyze Page{% endblock %}
+
+{% block content %}
+<main role="main" class="container p-5">
+    <form action="#" method="POST">
+        <div class="mb-3">
+            <label for="default" class="form-label">Input:</label>
+            <textarea class="codemirror-textarea form-control" name="inpt" id="default" cols="30" rows="10">{{initial}}</textarea>
+            <div class="form-text">Test ply</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</main>
+{% endblock %}
