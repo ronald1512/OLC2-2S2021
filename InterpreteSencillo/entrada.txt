@@ -1,0 +1,48 @@
+function HolaMundo(){
+    println("HolaMundo");
+}
+
+function main(){
+    HolaMundo();
+
+    if((5+5)>(2+1)){
+        println("Entra al if");
+    }
+
+    a=0;
+    c=1;
+    println("-olc2-N");
+    while(a<4+c){
+        a=a+1;
+        b=0;
+        while(b<4+c){
+            b=b+1;
+            println(a+" * "+b+" = "+a * b);
+        }
+        println("----------------");
+    }
+
+    println(factorial(6));
+
+    println("------------------------");
+    testVariables();
+} 
+
+function testVariables(){
+    a=55;
+    println(a);
+    a="Compiladores 2";
+    println(a);
+}
+
+
+function factorial(num){
+    if(num == 0){
+        return 1;
+    }
+    else{
+        return num * factorial(num-1);
+    }   
+}
+
+main();
