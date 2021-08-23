@@ -4,4 +4,9 @@ Ejemplos de laboratorio
 * [Convertidor binario a decimal con Jison](./Ejemplo1Jison/)
 * [Generador de codigo 3 direcciones en Python](./EjemploPython/)
 
-201901510
+Asistencia 09/08
+* 201612282
+* 201902157
+* 201903895
+* 199817948
+* 201901510
